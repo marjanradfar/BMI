@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+
+        <div class="box">
+
+          <h1>BMI Calculator</h1>
+
+          <div class="box__content">
+
+            <div class="box__content--age">
+              <label>Age</label>
+              <input type="text"  id="age" autocomplete="off" required/>
+            </div>
+            <div class="box__content__gander">
+              <label>
+                <input type="radio" name="radio" id="male"/>
+                <p>Male</p>
+                <span class="checkmark"></span>
+              </label>
+              <label>
+                <input type="radio" name="radio" id="female"/>
+                <p>Female</p>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="box__content__boxHW">
+
+              <div class="weight">
+                <label>Wight (kg)</label>
+                <input type="number" id="input-W"/>
+
+              </div>
+
+              <div class="height">
+
+                <label>Height (cm)</label>
+                <input type="number" id="input-H"/>
+              </div>
+
+            </div>
+            <button class="box__content__button" id="submit"> Calculator BMI</button>
+          </div>
+
+          <div class="box__result">
+            <p> your BMI is</p>
+            <div id="result"></div>
+            <p class="comment"></p>
+          </div>
+          
+        </div>
+      </div>
+
+    </main>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>
