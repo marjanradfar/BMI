@@ -10,7 +10,8 @@
 
 body {
   font-size: 16px;
-  background: rgba(244, 252, 99, 0.406);
+  background-image: url('../assets/background.jpg');
+  background-size: contain;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -23,7 +24,7 @@ body {
 
   .box {
     position: relative;
-    border: 1px solid red;
+    border: 1px solid #8aacb6ff;
     // width: 75%;
     // margin: 0 auto;
     width: 500px;
@@ -36,10 +37,12 @@ body {
       font-weight: bold;
       color: rgba(38, 44, 10, 0.676);
       padding: 1em 0;
+      color: #60b4ccff;
     }
 
     &__content {
       padding: 0 2em;
+      color: rgb(81, 128, 142);
 
       &--age {
         background: #fff;
@@ -48,16 +51,19 @@ body {
         border-radius: 12px;
         padding: 0 20px;
         margin-bottom: 20px;
+
         label {
           color: black;
           font-size: 2em;
           display: block;
           margin: 20px 0;
+          color: rgb(81, 128, 142);
+
         }
         input {
           outline: none;
           border: none;
-          border-bottom: 1px solid red;
+          border-bottom: 1px solid #8aacb6ff;
           text-align: center;
           font-size: 1.8em;
           width: 50%;
@@ -89,7 +95,7 @@ body {
         
         .weight,
         .height {
-          border: 1px solid red;
+          border: 1px solid #8aacb6ff;
           // width: 100%;
           background: #fff;
           border-radius: 12px;
@@ -108,7 +114,7 @@ body {
           // font-size: 28px;
           outline: none;
           border: none;
-          border-bottom: 1px solid red;
+          border-bottom: 1px solid #8aacb6ff;
           width: 50%;
           font-size: 1.8em;
           
@@ -116,7 +122,7 @@ body {
       }
 
       &__button {
-        background-color: red;
+        background-color: #60b4cc;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -136,10 +142,41 @@ body {
       p {
         font-size: 22px;
         font-weight: 600;
-        color: black;
         margin-bottom: 15px;
         margin-top: 10px;
+        color: #60b4ccff;
       }
     }
+  }
+}
+
+@media screen and (max-width:540px) {
+  .main{
+   
+    max-width: 90vw;
+    .box{
+     h1{
+      font-size: 2.2rem;
+    }
+    &__content{
+    padding: 0 0.8em ;
+    &__boxHW {
+      .height , .weight{
+        padding: 0.5rem 0.5rem;
+      }
+      label{
+        font-size: 1.2em;
+        font-weight: 500;
+      }
+    }
+    &__gander{
+      p{
+        font-size: 1em;
+        font-weight: 500;
+      }
+    }
+  }
+  
+}
   }
 }
