@@ -1,7 +1,4 @@
-# Vue 3 + Vite
+BMI Calculator
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a simple BMI (Body Mass Index) calculator web application. It allows users to enter their weight and height and calculates their BMI based on the input. The application then displays the corresponding BMI result, indicating whether the person is underweight, normal, overweight, or obese.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
