@@ -9,7 +9,7 @@ A BMI (Body Mass Index) calculator project developed in Js. This project provide
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [Demo](#demo)
 
 ## Introduction
 
@@ -66,6 +66,6 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 Please make sure to update tests as appropriate.
 
-## License
 
-MIT License 
+## Demo
+https://marjanradfar.github.io/BMI/
